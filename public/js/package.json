@@ -1,0 +1,15 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-user_location": "watchify ./user_location/Main.js -o ./user_location/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "watchify": "^3.11.1"
+  }
+}
